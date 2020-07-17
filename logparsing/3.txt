@@ -1,0 +1,165 @@
+[3J[H[2JMon Jul 13 16:21:38 EDT 2020
+{panel:title=Total Ref Advertisements}
+Number of refs: 999,001
+{panel}
+ 
+{panel:title=Top 20 Ref Advertisement IP Addresses}
+10.71.72.5 : 642,802
+10.81.137.88 : 45,330
+10.81.137.204 : 41,322
+10.51.12.222 : 32,310
+10.71.67.164 : 14,959
+10.146.0.12 : 11,404
+10.82.240.111 : 6,394
+10.82.240.55 : 6,232
+10.82.240.38 : 6,179
+10.82.240.127 : 6,141
+10.82.240.132 : 5,429
+10.82.240.20 : 5,418
+10.82.240.48 : 5,403
+10.82.240.109 : 5,279
+10.82.240.29 : 4,517
+10.82.240.90 : 4,495
+10.82.240.77 : 4,438
+10.82.240.105 : 4,295
+10.82.240.142 : 3,965
+10.82.240.53 : 3,938
+{panel}
+ 
+{panel:title=Top 20 Clone IP Addresses}
+10.71.72.5 : 26,869
+10.150.124.14 : 188
+10.150.124.26 : 184
+10.150.124.46 : 174
+10.150.124.34 : 173
+10.51.118.30 : 16
+10.82.240.93 : 14
+10.82.240.55 : 10
+10.82.240.117 : 9
+10.51.133.103 : 9
+10.82.240.70 : 7
+10.82.240.48 : 7
+10.82.240.109 : 7
+10.82.43.72 : 6
+10.82.240.121 : 6
+10.82.43.51 : 5
+10.82.43.19 : 5
+10.82.240.96 : 5
+10.82.240.74 : 5
+10.82.240.67 : 5
+{panel}
+ 
+{panel:title=Top 20 Push IP Addresses}
+10.71.72.5 : 45
+10.51.116.69 : 3
+10.51.130.205 : 2
+10.49.77.42 : 2
+10.81.137.8 : 1
+10.61.79.70 : 1
+10.61.79.59 : 1
+10.51.181.82 : 1
+10.51.134.118 : 1
+10.51.133.238 : 1
+10.51.133.138 : 1
+10.51.131.33 : 1
+10.51.130.105 : 1
+10.51.128.111 : 1
+10.51.112.115 : 1
+10.49.77.60 : 1
+10.49.77.57 : 1
+10.49.77.18 : 1
+10.162.18.42 : 1
+{panel}
+ 
+{panel:title=Top 20 Fetch IP Addresses}
+10.71.72.5 : 1,443
+10.162.17.23 : 69
+10.51.130.105 : 33
+10.67.102.101 : 8
+10.71.67.53 : 7
+10.71.76.93 : 6
+10.51.139.204 : 5
+10.51.130.127 : 5
+10.51.181.82 : 4
+10.51.177.123 : 4
+10.51.116.191 : 4
+10.161.18.54 : 4
+10.161.18.25 : 4
+10.51.129.182 : 3
+10.49.77.21 : 3
+10.150.124.39 : 3
+10.150.124.25 : 3
+10.150.124.19 : 3
+10.150.124.14 : 3
+10.82.240.70 : 2
+{panel}
+ 
+{panel:title=Number of Ref Advertisements per Repository}
+99,784 - ge/quark-forge-templates.git
+97,556 - ge/quark-flight-plans.git
+28,779 - sed/forge-build-plans-ori.git
+25,262 - ps/fling-config.git
+21,576 - nub/fling-config.git
+16,299 - ctt/cinder.git
+11,203 - gei/forge-build-plans-perfdev.git
+9,221 - isd/fps-cp.git
+7,443 - ucp/brokered-redis-requests.git
+7,210 - isd/fps-ye.git
+7,080 - bdes/mule-integration-processor.git
+7,004 - bdes/mule-integration-peopledoc.git
+6,963 - bdes/mule-job-dispatcher-cmd.git
+5,858 - bdes/mule-integration-deltadental-pa.git
+5,807 - bdes/mule-integration-netsuite-demographic.git
+5,763 - dec/clonewars-staging-tests.git
+5,537 - bdes/mule-integration-data-proxy.git
+5,527 - bdes/mule-integration-followup-processor.git
+5,496 - sed/forge-build-plans-gears-tools.git
+5,472 - bdes/mule-integration-optum834.git
+{panel}
+ 
+{panel:title=Number of Clones per Repository}
+h4. HTTP(s) clones:
+902 - ge/quark-flight-plans.git
+61 - ge/quark-forge-templates.git
+16 - strat/environment-config.git
+12 - hac/vault.git
+9 - iam-authn/env-config.git
+7 - nudp/ansible-spark-app.git
+6 - docs/docs-cli.git
+5 - prcp/test_pipeline.git
+5 - nui/performance.git
+4 - docs/docs-proxy.git
+2 - wfm/toa.git
+2 - wfm/ta.git
+2 - tlnt/tenant-cloning.git
+2 - gei/test_flight-plans.git
+1 - tm/garnishments.git
+1 - iam-authn/am.git
+1 - ge/quark-utils.git
+1 - gei/test_build-plans.git
+1 - ge/docker-quark-base.git
+1 - bdes/mule-integration-wellsfargo-defcomp.git
+h4. SSH Clones:
+4,392 - strat/environment-config.git
+240 - ge/quark-flight-plans.git
+187 - bdes/mule-job-dispatcher-cmd.git
+166 - strat/charts.git
+140 - bdes/mule-integration-peopledoc.git
+136 - ps/aio.git
+136 - bdes/mule-integration-processor.git
+131 - nui/performance.git
+128 - nub/fling-config.git
+109 - bdes/mule-integration-netsuite-demographic.git
+107 - bdes/mule-integration-data-proxy.git
+101 - bdes/mule-integration-followup-processor.git
+97 - bdes/mule-integration-deltadental-pa.git
+96 - ps/accountstore-api.git
+95 - perfdev/performance-flagged-feedback-response-query.git
+94 - perfdev/integration-common.git
+94 - bdes/mule-integration-optum834.git
+94 - bdes/mule-integration-common.git
+91 - bdes/mule-integration-deltadental.git
+90 - bdes/mule-integration-principal-defcomp.git
+{panel}
+ 
+Mon Jul 13 16:22:08 EDT 2020

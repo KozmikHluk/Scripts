@@ -1,0 +1,166 @@
+[3J[H[2JFri May  1 14:45:28 EDT 2020
+{panel:title=Total Ref Advertisements}
+Number of refs: 1,517,268
+{panel}
+ 
+{panel:title=Top 20 Ref Advertisement IP Addresses}
+10.71.72.5 : 1,222,385
+10.81.137.88 : 42,922
+10.81.137.204 : 39,996
+10.51.12.222 : 31,064
+10.71.67.164 : 9,749
+10.82.240.69 : 5,984
+10.82.240.30 : 5,399
+10.82.240.20 : 5,335
+10.82.240.81 : 5,318
+10.82.240.116 : 4,386
+10.82.240.111 : 4,298
+10.82.240.98 : 4,123
+10.82.240.92 : 4,107
+10.82.240.78 : 4,106
+10.82.240.14 : 3,865
+10.82.240.87 : 3,713
+10.82.240.27 : 3,696
+10.82.240.38 : 3,577
+10.82.240.59 : 3,573
+10.82.240.132 : 3,553
+{panel}
+ 
+{panel:title=Top 20 Clone IP Addresses}
+10.71.72.5 : 39,047
+10.82.240.93 : 34
+10.82.240.70 : 34
+10.82.240.117 : 28
+10.82.240.15 : 17
+10.51.114.2 : 16
+10.82.240.118 : 14
+10.82.240.67 : 13
+10.51.30.19 : 13
+10.82.240.64 : 11
+10.82.240.30 : 11
+10.82.240.132 : 11
+10.82.240.98 : 10
+10.82.240.80 : 10
+10.82.240.68 : 10
+10.82.240.55 : 10
+10.81.137.251 : 10
+10.82.240.92 : 9
+10.82.240.90 : 9
+10.82.240.78 : 9
+{panel}
+ 
+{panel:title=Top 20 Push IP Addresses}
+10.71.72.5 : 404
+10.82.100.180 : 9
+10.51.138.147 : 5
+10.51.112.59 : 5
+10.51.132.58 : 4
+10.55.16.27 : 3
+10.51.131.12 : 3
+10.81.137.88 : 2
+10.81.137.8 : 2
+10.61.79.36 : 2
+10.51.181.20 : 2
+10.51.177.40 : 2
+10.51.132.64 : 2
+10.51.115.6 : 2
+10.51.113.43 : 2
+10.50.23.158 : 2
+10.81.41.22 : 1
+10.81.137.37 : 1
+10.81.137.218 : 1
+10.61.79.8 : 1
+{panel}
+ 
+{panel:title=Top 20 Fetch IP Addresses}
+10.71.72.5 : 6,300
+10.55.12.59 : 99
+10.55.14.79 : 59
+10.51.180.171 : 50
+10.51.116.42 : 36
+10.50.23.48 : 36
+10.51.177.79 : 31
+10.50.23.57 : 30
+10.50.23.163 : 24
+10.50.23.180 : 22
+10.82.112.31 : 21
+10.51.134.208 : 20
+10.51.129.22 : 20
+10.51.114.171 : 20
+10.50.23.158 : 20
+10.50.23.146 : 20
+10.71.76.93 : 18
+10.51.128.225 : 18
+10.50.23.154 : 18
+10.82.112.27 : 17
+{panel}
+ 
+{panel:title=Number of Ref Advertisements per Repository}
+77,980 - ge/quark-flight-plans.git
+74,507 - ge/quark-forge-templates.git
+28,851 - ps/fling-config.git
+19,507 - mbl/ultipro-app.git
+18,651 - mbl/ultipro-app-ui-tests.git
+17,678 - sed/forge-build-plans-gears-tools.git
+16,502 - nub/fling-config.git
+13,985 - cu/echo.git
+12,883 - gei/forge-build-plans-perfdev.git
+11,383 - nui/dls.git
+10,937 - ge/quark-flight-plans.git
+10,052 - cu/ultipro.net.git
+9,232 - nupy/payroll-notification.git
+8,881 - isd/fps-cp.git
+7,233 - ps/aio.git
+7,179 - sed/forge-build-plans-ori.git
+7,065 - isd/fps-ye.git
+6,943 - cu/toolsado.git
+6,485 - gb/biisgateway.git
+6,332 - gei/forge-build-plans-opp-workflow.git
+{panel}
+ 
+{panel:title=Number of Clones per Repository}
+h4. HTTP(s) clones:
+385 - ge/quark-flight-plans.git
+65 - ge/quark-forge-templates.git
+19 - iam-authn/env-config.git
+18 - docs/docs-ci.git
+13 - isd/fps-cp.git
+12 - docs/docs-cli.git
+10 - docs/docs-tools.git
+9 - hac/vault.git
+8 - docs/guardrails.git
+7 - docs/docs-proxy.git
+6 - tf-mod/is-lab-factory.git
+6 - prcp/test_pipeline.git
+4 - wfm/wfm-entity.git
+4 - ucp/ucloud_hardening.git
+4 - pe/messaging-platform-reencryption-service.git
+4 - nui/performance.git
+4 - iam-authn/psr.git
+3 - ucp/ucloud_runtimes.git
+3 - ucp/ucloud_rabbitmq.git
+3 - nudp/ansible-spark-app.git
+h4. SSH Clones:
+2,352 - strat/environment-config.git
+714 - strat/nu-strat.git
+641 - ge/quark-flight-plans.git
+364 - perfdev/performance-reporting-service.git
+363 - perfdev/perception-authorization-service-axon-4.git
+359 - nui/performance.git
+337 - perfdev/performance-person-cmd.git
+285 - ps/aio.git
+272 - perfdev/performance-tenant-admin-query.git
+235 - perfdev/performance-tenant-config-cmd.git
+233 - perfdev/performance-swift-integration.git
+229 - oppds/opp-ds-person-write.git
+229 - oppds/opp-ds-person-read.git
+224 - perfdev/performance-toxic-words-cmd.git
+223 - perfdev/talent-ui-gateway.git
+218 - strat/fling-config.git
+207 - mbl/ionic-v4-fork.git
+200 - perfdev/performance-flagged-feedback-response-query.git
+197 - nub/fling-config.git
+196 - perfdev/performance-toxic-words-query.git
+{panel}
+ 
+Fri May  1 14:46:21 EDT 2020

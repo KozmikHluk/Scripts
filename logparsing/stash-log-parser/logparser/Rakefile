@@ -1,0 +1,74 @@
+require 'fileutils'
+require 'rubygems'
+require 'rake'
+
+begin
+  require 'sysinfo'
+rescue LoadError
+  puts "Please install the sysinfo gem first"
+  exit -1
+end
+
+ARTIFACTS=Rake::FileList[".stack-work/install/x86_64-osx/lts-3.2/*/bin/*"]
+
+desc "Build and package the logparser"
+task :package do
+
+  `make package`
+  
+  include FileUtils
+  with_temp_dir "logparser" do |package_dir|
+    cp "../README.md", package_dir
+    %w(NOTICE LICENSE CHANGELOG).each {|f| cp f, package_dir }
+    bin_dir = File.join(package_dir, "bin")
+    mkdir bin_dir
+    ARTIFACTS.each do |file|
+      cp file, bin_dir
+    end
+    sysinfo = SysInfo.new
+    archive="logparser-#{sysinfo.impl}-#{sysinfo.arch}-#{version}.tar.gz"
+    `tar zfc #{archive} logparser`
+    `openssl dgst -sha1 #{archive} | awk -F'= ' '{print $2}' > #{archive}.sha1`
+  end
+end
+
+desc "Update version to the next minor version, tag the result"
+task :bump_minor_version do
+  current_version = `git describe --tags`.strip.split("-").first.gsub(/^v/, '')
+  major, minor = current_version.split(".").map {|e| e.to_i}
+  next_version = [major, minor.next].join(".")
+
+  # Update version in Main
+  update_file(File.join("src", "Main.hs"), /appVersion = "[^"]+"/, "appVersion = \"#{next_version}\"")
+
+  # Update cabal file
+  update_file("logparser.cabal", /^version:.*$/, "version:                #{next_version}")
+
+  # Commit and tag
+  msg = "Bump version to #{next_version}"
+  puts msg
+  `git add -u`
+  `git commit -m "#{msg}"`
+  `git tag -a -m "#{msg}" v#{next_version}`
+end
+
+def version
+  `git describe --tag --always`.strip
+end
+
+def with_temp_dir(name)
+  raise "The directory #{name} already exists" if File.directory?(name)
+  mkdir name
+  yield name
+ensure
+  rm_r name
+end
+
+
+def update_file(file, pattern, replace)
+  updated = IO.read(file)
+  File.open(file, "w") do |f|
+    f << updated.gsub(pattern, replace)
+  end
+end
+
